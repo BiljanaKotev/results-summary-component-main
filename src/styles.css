@@ -1,0 +1,257 @@
+.attribution {
+  font-size: 12px;
+  text-align: center;
+  color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+main {
+  display: flex;
+  max-width: 736px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.gradient-box {
+  background: linear-gradient(180deg, #7755ff 0%, #6943ff 0.01%, #2f2ce9 100%);
+  width: 368px;
+  border-radius: 32px;
+}
+
+h1 {
+  margin-top: 38px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 31px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 700;
+  color: #cac9ff;
+}
+
+.gradient-circle {
+  margin: 35px auto 0 auto;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(180deg, #4d21c9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+span.circle-score-top {
+  margin-top: 55px;
+  font-size: 72px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 800;
+  line-height: 72px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.circle-score-bottom {
+  align-self: center;
+  color: #cac9ff;
+  font-size: 18px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 700;
+  line-height: 23px;
+  opacity: 52%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 700;
+  font-size: 32px;
+  font-family: "Hanken Grotesk", sans-serif;
+  color: #ffffff;
+  line-height: 42px;
+  margin-top: 28px;
+}
+
+.results-p {
+  color: #cac9ff;
+  text-align: center;
+  margin: 14px 20px 0 20px;
+  font-size: 18px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 500;
+}
+
+.summary-box {
+  width: 368px;
+  height: 512px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+.whole-card {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 32px;
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  margin-left: 40px;
+  margin-top: 28px;
+}
+
+.summary-results {
+  width: 288px;
+  height: 56px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 12px;
+}
+
+h3 {
+  margin-top: 38px;
+  font-size: 34px;
+  line-height: 31px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 700;
+  color: #303b59;
+  margin-left: 40px;
+}
+
+button {
+  margin: 41px auto;
+  border-radius: 128px;
+  width: 288px;
+  height: 56px;
+  font-size: 18px;
+  border: none;
+  color: #ffffff;
+  line-height: 23px;
+  background-color: #303b59;
+  display: block;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4d21c9;
+}
+
+.button-container {
+  margin: 0 auto;
+}
+
+.red {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #ff5555;
+  color: #ff5555;
+}
+
+.yellow {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #ffb21e;
+  color: #ffb21e;
+}
+
+.green {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00bb8f;
+  color: #00bb8f;
+}
+
+.blue {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125d6;
+  color: #1125d6;
+}
+
+span.bold {
+  font-weight: bold;
+}
+
+.summary-results {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.svg-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+p.summary-score {
+  margin-left: 100px;
+  color: #303b59;
+}
+
+p.margin-left {
+  margin-left: 115px;
+}
+
+@media screen and (max-width: 768px) {
+  .whole-card {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .gradient-box {
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    width: 375px;
+    height: 356px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+
+  h1 {
+    font-size: 18px;
+    margin-top: 32px;
+  }
+
+  .gradient-circle {
+    width: 140px;
+    height: 140px;
+    margin-top: 16px;
+  }
+
+  span.circle-score-top {
+    font-size: 56px;
+    margin-top: 25px;
+  }
+
+  .circle-score-bottom {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 31px;
+    margin-top: 24px;
+  }
+
+  .summary-results {
+    font-size: 16px;
+    width: 315px;
+    justify-content: center;
+  }
+
+  button {
+    width: 315px;
+  }
+
+  .results-grid {
+    margin-left: 30px;
+  }
+}
